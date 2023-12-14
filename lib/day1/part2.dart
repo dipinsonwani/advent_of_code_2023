@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  final input = (File('inputs/day2.txt').readAsLinesSync());
+  final input = (File('inputs/day1-2.txt').readAsLinesSync());
 
   var number = 0;
   for (var element in input) {
